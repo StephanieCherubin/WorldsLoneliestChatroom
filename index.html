@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loneliest Chatroom</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/png" href="jasmine/lib/jasmine-2.3.4/jasmine_favicon.png">
+  <link rel="stylesheet" type="text/css" href="jasmine/lib/jasmine-2.3.4/jasmine.css">
+  <script src="jquery-2.1.4.min.js"></script>
+  <script src="script.js"></script>
+
+
+
+  <script type="text/javascript" src="jasmine/lib/jasmine-2.3.4/jasmine.js"></script>
+  <script type="text/javascript" src="jasmine/lib/jasmine-2.3.4/jasmine-html.js"></script>
+  <script type="text/javascript" src="jasmine/lib/jasmine-2.3.4/boot.js"></script>
+  <script src="jasmine/lib/jasmine-jquery.js"></script>
+  <script src="jasmine/spec/chatSpec.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1>World's Loneliest Chatroom</h1>
+    <h2>No Friends? No Problem!</h2>
+  </header>
+  <main>
+  <section class="chat">
+    <ol id="conversation">
+      <li class="message">
+        <a class='delete' href='#'>Delete</a>
+        <h3 class="author">Me</h3>
+        <p class="message-body">Hi! Let's be friends =D</p>
+        <span class="timestamp">01:12</span>
+      </li>
+    </ol>
+  </section>
+  <section class="new-message">
+    <textarea name="message-body" id="new-message-body" cols="30" rows="5" placeholder="Type here!"></textarea>
+  <input type="button" id="new-message-button" value="Send">
+  </section>
+  <input type="button" id="lonely" value="I'm Lonely">
+  </main>
+</body>
+</html>
