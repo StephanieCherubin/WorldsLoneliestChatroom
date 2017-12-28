@@ -1,8 +1,8 @@
-# The Loneliest Chatroom
+# World's Loneliest Chatroom
 
 ![world s loneliest chatroom](https://user-images.githubusercontent.com/26418542/34421917-4e64768a-ebe0-11e7-9879-fd0db7e4e56a.png)
 
-Have you ever talked to yourself? Good! For this hackathon you're going to be building an app that lets you talk to yourself all day! This is... *The Loneliest Chatroom*!
+Have you ever talked to yourself? Good! For this hackathon you're going to be building an app that lets you talk to yourself all day! This is... *World's Loneliest Chatroom*!
 
 During this exercise, you'll write JavaScript to make our chatroom-for-one work. To guide you, we've provided you with failing tests written in Jasmine, a JS testing framework. 
 
