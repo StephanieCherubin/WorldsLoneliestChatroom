@@ -85,7 +85,7 @@ describe("Alternates between Me/Myself/I (3)", function() {
   });
 });
 
-xdescribe("I'm lonely! Button pulls in API data as a chat(5):", function() {
+describe("I'm lonely! Button pulls in API data as a chat(5):", function() {
   beforeAll(function(done) {
      spyOn($, 'ajax').and.callThrough();
      if ($.icndb) {
